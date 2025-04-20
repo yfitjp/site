@@ -3,7 +3,7 @@ body {
     font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif; /* モダンなフォント */
     margin: 0;
     padding: 0;
-    background-color: #ffffff; /* 背景色を白に戻す */
+    background-color: #e9ecef; /* 背景色を少し濃くしてコントラストを明確に */
     color: #495057; /* 濃いグレー */
     line-height: 1.65; /* 行間を少し狭める */
 }
@@ -43,7 +43,7 @@ section {
     padding: 2.5rem 1.5rem; /* パディング調整 */
     max-width: 800px;
     margin: 1.5rem auto; /* マージン調整 */
-    background-color: #e7f3ff; /* セクション背景を水色に変更 */
+    background-color: #ffffff; /* セクション背景は白 */
     border-radius: 6px; /* 角丸を少し小さく */
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.08); /* 柔らかい影 */
 }
@@ -118,7 +118,7 @@ footer {
     text-align: center;
     margin-top: 3rem; /* マージン調整 */
     padding: 1.5rem 0;
-    background-color: #e7f3ff; /* フッター背景も水色に変更 */
+    background-color: #dee2e6; /* フッター背景色もボディ背景に合わせて調整 */
     color: #6c757d; /* フッター文字色 */
     font-size: 0.9rem;
 }
