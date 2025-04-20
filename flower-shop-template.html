@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>花屋テンプレート - [店舗名]</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="flower-shop-style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="site-header" data-aos="fade-down">
+        <div class="container">
+            <div class="logo">[店舗ロゴ/名前]</div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#hero">ホーム</a></li>
+                    <li><a href="#concept">コンセプト</a></li>
+                    <li><a href="#products">商品紹介</a></li>
+                    <li><a href="#gallery">ギャラリー</a></li>
+                    <li><a href="#services">サービス</a></li>
+                    <li><a href="#contact">アクセス</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" aria-label="ナビゲーションを開く">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-background-placeholder"></div> <!-- Background image -->
+            <div class="hero-content container" data-aos="fade-in" data-aos-delay="300">
+                <h1 class="hero-title">[キャッチコピー: 例: 花と緑で彩る、特別な日常]</h1>
+                <p class="hero-subtitle">[サブコピー: 例: 季節の花々を使った、心に残るフラワーギフトをご提案します]</p>
+                <a href="#products" class="button primary-button">商品を見る</a>
+            </div>
+        </section>
+
+        <!-- Concept Section -->
+        <section id="concept" class="concept-section container" data-aos="fade-up">
+             <div class="section-header">
+                <h2 class="section-title">コンセプト</h2>
+                <p class="section-subtitle">Our Concept</p>
+            </div>
+            <div class="concept-content">
+                <div class="concept-image" data-aos="fade-right">
+                    <img src="placeholder-flower-shop-concept-800x600.jpg" alt="お店のコンセプトを表す写真">
+                </div>
+                <div class="concept-text" data-aos="fade-left">
+                    <h3>[見出し: 例: 日々に寄り添う、一輪の花]</h3>
+                    <p>[お店のコンセプト、花への想い、店内の雰囲気などを記述します。ダミーテキスト。]</p>
+                    <p>[ダミーテキストダミーテキストダミーテキスト。]</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="products-section" data-aos="fade-up">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">商品紹介</h2>
+                    <p class="section-subtitle">Our Products</p>
+                </div>
+                <div class="product-grid">
+                    <div class="product-card" data-aos="fade-up">
+                        <img src="placeholder-arrangement-1-400x500.jpg" alt="アレンジメント 1" class="product-image">
+                        <div class="product-info">
+                            <h3 class="product-name">[アレンジメント A]</h3>
+                            <p class="product-price">[価格: 例: ¥5,500]</p>
+                            <a href="#" class="button secondary-button">詳細を見る</a>
+                        </div>
+                    </div>
+                     <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+                        <img src="placeholder-bouquet-1-400x500.jpg" alt="ブーケ 1" class="product-image">
+                        <div class="product-info">
+                            <h3 class="product-name">[ブーケ B]</h3>
+                            <p class="product-price">[価格: 例: ¥3,800]</p>
+                            <a href="#" class="button secondary-button">詳細を見る</a>
+                        </div>
+                    </div>
+                     <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="placeholder-seasonal-1-400x500.jpg" alt="季節の花 1" class="product-image">
+                        <div class="product-info">
+                            <h3 class="product-name">[季節の花 C]</h3>
+                            <p class="product-price">[価格帯: 例: ¥1,000～]</p>
+                            <a href="#" class="button secondary-button">詳細を見る</a>
+                        </div>
+                    </div>
+                    <!-- Add more products as needed -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery-section container" data-aos="fade-up">
+             <div class="section-header">
+                <h2 class="section-title">ギャラリー</h2>
+                <p class="section-subtitle">Our Works & Shop</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="zoom-in"><img src="placeholder-gallery-1-400x400.jpg" alt="作品例 1"></div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="50"><img src="placeholder-gallery-2-400x400.jpg" alt="作品例 2"></div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100"><img src="placeholder-gallery-3-400x400.jpg" alt="店内の写真 1"></div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150"><img src="placeholder-gallery-4-400x400.jpg" alt="作品例 3"></div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200"><img src="placeholder-gallery-5-400x400.jpg" alt="店内の写真 2"></div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250"><img src="placeholder-gallery-6-400x400.jpg" alt="作品例 4"></div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+         <section id="services" class="services-section" data-aos="fade-up">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">サービス</h2>
+                    <p class="section-subtitle">Our Services</p>
+                </div>
+                <div class="services-list">
+                    <div class="service-item" data-aos="fade-right">
+                        <div class="service-icon"><i class="fas fa-truck"></i></div>
+                        <div class="service-content">
+                            <h3>[配送サービス]</h3>
+                            <p>[配送エリアや料金などの説明。]</p>
+                        </div>
+                    </div>
+                    <div class="service-item" data-aos="fade-left">
+                        <div class="service-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                         <div class="service-content">
+                            <h3>[フラワーレッスン/ワークショップ]</h3>
+                            <p>[開催日時や内容、予約方法などの説明。]</p>
+                        </div>
+                    </div>
+                    <div class="service-item" data-aos="fade-right">
+                        <div class="service-icon"><i class="fas fa-gift"></i></div>
+                        <div class="service-content">
+                            <h3>[ギフトラッピング]</h3>
+                            <p>[ラッピングの種類や料金などの説明。]</p>
+                        </div>
+                    </div>
+                    <!-- Add more services -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact/Location Section -->
+        <section id="contact" class="contact-section container" data-aos="fade-up">
+             <div class="section-header">
+                <h2 class="section-title">アクセス & お問い合わせ</h2>
+                <p class="section-subtitle">Location & Contact</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>店舗情報</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>住所:</strong> [都道府県市区町村番地]</p>
+                    <p><i class="fas fa-phone"></i> <strong>電話番号:</strong> <a href="tel:[電話番号]">[電話番号]</a></p>
+                    <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:[メールアドレス]">[メールアドレス]</a></p>
+                    <p><i class="fas fa-clock"></i> <strong>営業時間:</strong> [曜日] [開始時間] - [終了時間]</p>
+                    <p><i class="fas fa-calendar-times"></i> <strong>定休日:</strong> [曜日]</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <!-- Add other relevant social links -->
+                    </div>
+                </div>
+                 <div class="contact-map" data-aos="fade-left">
+                    <!-- Google Map embed placeholder -->
+                    <div class="map-placeholder"><span>Google Map<br>埋め込みエリア</span></div>
+                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d..." width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; [年] [店舗名]. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 900, // Slightly longer duration for elegance
+            once: true,
+            offset: 60
+        });
+
+        // Simple Mobile Nav Toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const mainNav = document.querySelector('.main-nav');
+
+        navToggle.addEventListener('click', () => {
+            mainNav.classList.toggle('active');
+            navToggle.querySelector('i').classList.toggle('fa-bars');
+            navToggle.querySelector('i').classList.toggle('fa-times');
+        });
+    </script>
+
+</body>
+</html> 
