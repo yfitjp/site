@@ -327,7 +327,7 @@ footer {
 
 .template-section h3 {
     margin-bottom: calc(var(--spacing-unit) * 0.5);
-    color: var(--primary-color-dark); /* Subsection heading color */
+    color: var(--primary-color); 
 }
 .template-section p {
     margin-bottom: calc(var(--spacing-unit) * 1.5);
