@@ -123,13 +123,70 @@ footer {
     font-size: 0.9rem;
 }
 
+/* 強調スタイル */
+.highlight {
+    font-weight: 600;
+    color: #004080; /* 深みのあるブルー */
+}
+
+.highlight-strong {
+    font-weight: 700; /* さらに太く */
+    color: #dc3545; /* 目立つ赤系 */
+    font-size: 1.1em; /* 少し大きく */
+}
+
+h2.highlight-strong {
+    font-size: 1.8rem;
+    text-align: center;
+    border-bottom: none; /* 通常のh2の下線は消す */
+    margin-bottom: 1rem;
+}
+
+.highlight-price {
+    font-weight: 700;
+    color: #28a745; /* 目立つ緑系 */
+    font-size: 1.2em; /* やや大きく */
+}
+
+.price {
+    font-weight: 600;
+}
+
+#pricing ul li {
+    font-size: 1.1rem; /* 価格セクションのリストを少し大きく */
+}
+
+#features ul li {
+    font-size: 1.1rem; /* 特徴セクションのリストも少し大きく */
+    padding-left: 1em;
+    position: relative;
+}
+
+#features ul li::before {
+    content: "✔"; /* チェックマーク */
+    color: #28a745; /* 緑系 */
+    position: absolute;
+    left: -0.5em;
+    top: 0;
+}
+
+.mail-address {
+    margin-top: 0.5rem;
+    display: block; /* ボタンの下に表示 */
+}
+
 /* レスポンシブ対応 */
+.sp-only { display: none; } /* 通常は非表示 */
+
 @media (max-width: 768px) {
     header h1 {
         font-size: 1.8rem; /* スマホでのヘッダー文字サイズ調整 */
     }
     section h2 {
         font-size: 1.4rem; /* スマホでのセクション見出しサイズ調整 */
+    }
+    h2.highlight-strong {
+        font-size: 1.6rem; /* スマホでの強調見出しサイズ調整 */
     }
 }
 
@@ -143,6 +200,7 @@ footer {
     header h1 {
         font-size: 1.6rem;
     }
+    .sp-only { display: block; } /* スマホで表示 */
 
     /* #hero h2 スタイル削除 */
 
@@ -154,9 +212,27 @@ footer {
         font-size: 1.3rem;
         margin-bottom: 1.5rem;
     }
+    h2.highlight-strong {
+        font-size: 1.4rem; /* スマホでの強調見出しサイズ調整 */
+    }
+
+    .highlight-price {
+        font-size: 1.1em;
+    }
+
+    #pricing ul li,
+    #features ul li {
+        font-size: 1rem; /* スマホでのリスト文字サイズ */
+    }
 
     .button {
         padding: 0.8rem 1.5rem; /* スマホでのボタンパディング */
         font-size: 0.95rem;
+    }
+
+    .note {
+        display: block; /* スマホでは改行させる */
+        margin-left: 0;
+        margin-top: 0.3em;
     }
 } 
