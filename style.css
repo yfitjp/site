@@ -75,7 +75,7 @@ h2 {
 
 h3 {
     font-size: calc(var(--base-font-size) * 1.25); /* 20px */
-    color: var(--primary-color-dark);
+    color: var(--primary-color); /* h3の色も通常の青に統一 */
 }
 
 img {
