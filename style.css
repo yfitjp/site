@@ -145,6 +145,32 @@ section:hover {
     margin-bottom: var(--spacing-unit);
 }
 
+/* Service List Style Override */
+#service .plan ul,
+#service .options ul {
+    list-style-type: none; /* 中黒を削除 */
+    padding-left: 0;      /* 左のパディングをリセット */
+    margin-top: var(--spacing-unit);
+}
+
+#service .plan ul li,
+#service .options ul li {
+    position: relative;       /* アイコン配置の基準 */
+    padding-left: calc(var(--spacing-unit) * 1.5); /* アイコン分のスペース確保 */
+    margin-bottom: calc(var(--spacing-unit) * 0.6);
+}
+
+#service .plan ul li i,
+#service .options ul li i {
+    position: absolute;
+    left: 0;
+    top: 0.25em; /* アイコンの垂直位置調整 */
+    color: var(--primary-color); /* アイコンの色を青に指定 */
+    width: calc(var(--spacing-unit) * 1); /* アイコンの占有幅 */
+    text-align: center;
+    margin-right: 0; /* 元々あった右マージンをリセット */
+}
+
 #flow ol {
     list-style: none;
     padding-left: 0;
